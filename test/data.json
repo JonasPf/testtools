@@ -1,0 +1,128 @@
+[
+    {
+        "seconds": 2.375, 
+        "event": "wait"
+    }, 
+    {
+        "event": "screencap", 
+        "file": "1.bmp"
+    }, 
+    {
+        "seconds": 0.907, 
+        "event": "wait"
+    }, 
+    {
+        "y": 253, 
+        "x": 48, 
+        "event": "mousemove"
+    }, 
+    {
+        "seconds": 0.0, 
+        "event": "wait"
+    }, 
+    {
+        "y": 253, 
+        "x": 48, 
+        "button": "left", 
+        "event": "mousepress"
+    }, 
+    {
+        "seconds": 0.062, 
+        "event": "wait"
+    }, 
+    {
+        "y": 253, 
+        "x": 48, 
+        "event": "mousemove"
+    }, 
+    {
+        "seconds": 0.0, 
+        "event": "wait"
+    }, 
+    {
+        "y": 253, 
+        "x": 48, 
+        "button": "left", 
+        "event": "mouserelease"
+    }, 
+    {
+        "seconds": 0.219, 
+        "event": "wait"
+    }, 
+    {
+        "character": "Return", 
+        "event": "keypress"
+    }, 
+    {
+        "seconds": 0.078, 
+        "event": "wait"
+    }, 
+    {
+        "character": "Return", 
+        "event": "keyrelease"
+    }, 
+    {
+        "seconds": 0.11, 
+        "event": "wait"
+    }, 
+    {
+        "character": "Return", 
+        "event": "keypress"
+    }, 
+    {
+        "seconds": 0.094, 
+        "event": "wait"
+    }, 
+    {
+        "character": "Return", 
+        "event": "keyrelease"
+    }, 
+    {
+        "seconds": 0.25, 
+        "event": "wait"
+    }, 
+    {
+        "character": "D", 
+        "event": "keypress"
+    }, 
+    {
+        "seconds": 0.093, 
+        "event": "wait"
+    }, 
+    {
+        "character": "S", 
+        "event": "keypress"
+    }, 
+    {
+        "seconds": 0.032, 
+        "event": "wait"
+    }, 
+    {
+        "character": "D", 
+        "event": "keyrelease"
+    }, 
+    {
+        "seconds": 0.0, 
+        "event": "wait"
+    }, 
+    {
+        "character": "A", 
+        "event": "keypress"
+    }, 
+    {
+        "seconds": 0.109, 
+        "event": "wait"
+    }, 
+    {
+        "character": "S", 
+        "event": "keyrelease"
+    }, 
+    {
+        "seconds": 0.016, 
+        "event": "wait"
+    }, 
+    {
+        "character": "A", 
+        "event": "keyrelease"
+    }
+]
