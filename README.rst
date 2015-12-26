@@ -37,7 +37,9 @@ The basic format of a line is: action:parameter
 Example:
 
     mouse_left_up_or_down
+
     type:'Test'
+
     key:'enter'
 
 The following command shows all possible user inputs with their parameters:
@@ -75,7 +77,7 @@ those user inputs (possibly the windows desktop). To avoid this problem it is
 possible to monitor a log file and stop the user inputs if certain strings
 appear in the log file:
 
-    python monkey_test.py --config FILE --check-log C:\test.log ERROR
+    python monkey_test.py --config FILE --check-log C:\\test.log ERROR
 
 Regardless, I always recommend to run monke_test.py in a disposable VM. There
 is just too much that can go wrong if random inputs are send to a PC. Don't
