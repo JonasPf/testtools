@@ -1,4 +1,4 @@
-These are a couple of testing tools I'm working on at the moment. At the
+These are a couple of software test tools. At the
 moment there are just a bunch of scripts to try out various ideas I'm having.
 Don't expect fancy install scripts or even a python egg.
 
@@ -22,7 +22,7 @@ Use case
 
 Test software by sending a huge amount of user input to it. This is a very
 low-cost test. A configuration can be set up in a couple of minutes. If run
-long enough eventually it will execute a combination of user inputs that will
+long enough it will eventually execute a combination of user inputs that will
 cause a bug in the program under test (That's the theory anyway).
 
 Usage
@@ -36,9 +36,11 @@ The basic format of a line is: action:parameter
 
 Example:
 
+```
   mouse_left_up_or_down
   type:'Test'
   key:'enter'
+```
 
 
 The following command shows all possible user inputs with their parameters:
@@ -76,7 +78,9 @@ those user inputs (possibly the windows desktop). To avoid this problem it is
 possible to monitor a log file and stop the user inputs if certain strings
 appear in the log file:
 
+```
   python monkey_test.py --config FILE --check-log C:\test.log ERROR
+```
 
 Regardless, I always recommend to run monke_test.py in a disposable VM. There
 is just too much that can go wrong if random inputs are send to a PC. Don't
@@ -131,9 +135,9 @@ To capture inputs:
 
 While capturing there are two special keys:
 
-  F12: Takes a screenshot and saves it into a folder 'expected' under the
+* F12: Takes a screenshot and saves it into a folder 'expected' under the
 specified test folder
-  F11: Stops the recording
+* F11: Stops the recording
 
 To replay inputs:
 
